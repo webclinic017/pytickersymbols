@@ -1,16 +1,27 @@
-name: Pull Request
+name: SymbolscannerSymbols
 
-on: pull_request
+on:
+  schedule:
+    - cron:  '0 5 * * *'
+  workflow_dispatch:
 jobs:
-  # Test
-  test:
+  scan:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python: [3.8]
-
     steps:
       - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get install libcurl4-openssl-dev
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: pip install wheel
+      - name: Install dependencies
+        run: pip install pysymbolscanner
+      - name: Run scanner
+        run: pysymbolscanner --symbols --input stocks.yaml --output stocks.yaml
       - uses: actions/setup-python@v1
         with:
           python-version: ${{ matrix.python }}
@@ -35,8 +46,19 @@ jobs:
         with:
           parallel: true
           debug: true
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: 'fix: added symbols to stocks'
+          title: 'fix: added symbols to stocks'
+          body: |
+            Auto-generated PR by pysymbolscanner
+          labels: Cron
+          branch-suffix: timestamp
+          branch: feature/add_symbols_components
+          base: master
   coveralls_finish:
-    needs: test
+    needs: scan
     runs-on: ubuntu-latest
     steps:
     - name: Coveralls Finished

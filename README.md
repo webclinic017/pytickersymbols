@@ -61,3 +61,4 @@ print(list(uk_stocks))
 ## issue tracker
 
 https://github.com/portfolioplus/pytickersymbols/issues
+
