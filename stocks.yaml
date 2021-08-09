@@ -2842,6 +2842,9 @@ companies:
   - yahoo: JGHHY
     google: OTCMKTS:JGHHY
     currency: USD
+  - yahoo: JUNU.F
+    google: FRA:JUNU
+    currency: EUR
   metadata:
     founded: 1953
     employees: 18103
@@ -3584,6 +3587,9 @@ companies:
   - yahoo: IGQ.F
     google: FRA:IGQ
     currency: EUR
+  - yahoo: TGOPF
+    google: OTCMKTS:TGOPF
+    currency: USD
   metadata:
     founded: 1945
     employees: 244
@@ -5657,6 +5663,12 @@ companies:
   - yahoo: SBRY.L
     google: LON:SBRY
     currency: GBP
+  - yahoo: JSNSF
+    google: OTCMKTS:JSNSF
+    currency: USD
+  - yahoo: SUY.F
+    google: FRA:SUY
+    currency: EUR
   metadata:
     founded: 1869
     employees: 111900
@@ -5682,6 +5694,9 @@ companies:
   - yahoo: SDR.L
     google: LON:SDR
     currency: GBP
+  - yahoo: PYXA.F
+    google: FRA:PYXA
+    currency: EUR
   metadata:
     founded: 1804
     employees: 5000
@@ -5863,6 +5878,9 @@ companies:
   - yahoo: SPX.L
     google: LON:SPX
     currency: GBP
+  - yahoo: SPXSY
+    google: OTCMKTS:SPXSY
+    currency: USD
   metadata:
     founded: 1888
     employees: ''
@@ -5932,6 +5950,9 @@ companies:
   - yahoo: STAN.L
     google: LON:STAN
     currency: GBP
+  - yahoo: SCBFY
+    google: OTCMKTS:SCBFY
+    currency: USD
   metadata:
     founded: 1853
     employees: 85000
@@ -5987,6 +6008,9 @@ companies:
   - yahoo: TW.L
     google: LON:TW
     currency: GBP
+  - yahoo: TWODY
+    google: OTCMKTS:TWODY
+    currency: USD
   metadata:
     founded: 2007
     employees: ''
@@ -6010,6 +6034,9 @@ companies:
   - yahoo: TSCO.L
     google: LON:TSCO
     currency: GBP
+  - yahoo: TCO2.F
+    google: FRA:TCO2
+    currency: EUR
   metadata:
     founded: 1919
     employees: 423092
@@ -6337,6 +6364,9 @@ companies:
   - yahoo: NTOIY
     google: OTCMKTS:NTOIY
     currency: USD
+  - yahoo: NEFA.F
+    google: FRA:NEFA
+    currency: EUR
   metadata:
     founded: 1948
     employees: 4400
@@ -6595,6 +6625,9 @@ companies:
   - yahoo: KNCRY
     google: OTCMKTS:KNCRY
     currency: USD
+  - yahoo: KNCRF
+    google: OTCMKTS:KNCRF
+    currency: USD
   metadata:
     founded: 1994
     employees: 17027
@@ -6648,7 +6681,8 @@ companies:
 - name: Outotec Oyj
   symbol: OTE1V
   country: Finland
-  indices: []
+  indices:
+  - OMX Helsinki 25
   industries:
   - Industrials
   - Construction & Engineering
@@ -6660,6 +6694,9 @@ companies:
   - yahoo: OUKPY
     google: OTCMKTS:OUKPY
     currency: USD
+  - yahoo: M6QB.F
+    google: FRA:M6QB
+    currency: EUR
   metadata:
     founded: 2020
     employees: 15600
@@ -6668,7 +6705,8 @@ companies:
 - name: Telia Company AB (publ)
   symbol: TLS1V
   country: Sweden
-  indices: []
+  indices:
+  - OMX Helsinki 25
   industries:
   - Telecommunications Services
   - Integrated Telecommunications Services
@@ -7024,6 +7062,9 @@ companies:
   - yahoo: ENGIY
     google: OTCMKTS:ENGIY
     currency: USD
+  - yahoo: GZFB.F
+    google: FRA:GZFB
+    currency: EUR
   metadata:
     founded: 2008
     employees: 171100
@@ -7533,6 +7574,9 @@ companies:
   - yahoo: TTE
     google: NYSE:TTE
     currency: USD
+  - yahoo: TTE.L
+    google: LON:TTE
+    currency: GBP
   metadata:
     founded: 1924
     employees: 107776
@@ -8421,9 +8465,7 @@ companies:
 - name: Alexion Pharmaceuticals Inc.
   symbol: ALXN
   country: United States
-  indices:
-  - NASDAQ 100
-  - S&P 500
+  indices: []
   industries:
   - Pharmaceuticals
   - Pharmaceuticals & Medical Research
@@ -10474,6 +10516,9 @@ companies:
   - yahoo: BRK-B
     google: NYSE:BRK.B
     currency: USD
+  - yahoo: BRH.F
+    google: FRA:BRH
+    currency: EUR
   metadata:
     founded: 1839
     employees: 360000
@@ -10497,6 +10542,9 @@ companies:
   - yahoo: BLK
     google: NYSE:BLK
     currency: USD
+  - yahoo: 0QZZ.L
+    google: LON:0QZZ
+    currency: GBP
   metadata:
     founded: 1988
     employees: 16500
@@ -10639,6 +10687,9 @@ companies:
   - yahoo: COP
     google: NYSE:COP
     currency: USD
+  - yahoo: 0QZA.L
+    google: LON:0QZA
+    currency: GBP
   metadata:
     founded: 1875
     employees: 10400
@@ -10687,6 +10738,9 @@ companies:
   - yahoo: DHR
     google: NYSE:DHR
     currency: USD
+  - yahoo: 0R2B.L
+    google: LON:0R2B
+    currency: GBP
   metadata:
     founded: 1969
     employees: 71000
@@ -10846,6 +10900,9 @@ companies:
   - yahoo: GE
     google: NYSE:GE
     currency: USD
+  - yahoo: GCP.F
+    google: FRA:GCP
+    currency: EUR
   metadata:
     founded: 1892
     employees: 205000
@@ -10884,6 +10941,7 @@ companies:
   symbol: HON
   country: United States
   indices:
+  - NASDAQ 100
   - S&P 100
   - S&P 500
   industries:
@@ -15520,8 +15578,7 @@ companies:
 - name: L Brands Inc.
   symbol: LB
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Retailers
   - Apparel & Accessories Retailers
@@ -16029,7 +16086,8 @@ companies:
 - name: Moody's Corporation
   symbol: MCO
   country: United States
-  indices: []
+  indices:
+  - S&P 500
   industries:
   - Professional Information Services
   - Industrials
@@ -19757,6 +19815,12 @@ companies:
   - yahoo: ADYYF
     google: OTCMKTS:ADYYF
     currency: USD
+  - yahoo: ADYEN.AS
+    google: AMS:ADYEN
+    currency: EUR
+  - yahoo: ADYEY
+    google: OTCMKTS:ADYEY
+    currency: USD
   metadata:
     founded: 2006
     employees: 1750
@@ -21981,6 +22045,9 @@ companies:
   - yahoo: 4A91.F
     google: FRA:4A91
     currency: EUR
+  - yahoo: AVVYY
+    google: OTCMKTS:AVVYY
+    currency: USD
   isins:
   - GB00BBG9VN75
   metadata:
@@ -22026,6 +22093,9 @@ companies:
   - yahoo: GMVHY
     google: OTCMKTS:GMVHY
     currency: USD
+  - yahoo: 6GI0.F
+    google: FRA:6GI0
+    currency: EUR
   isins:
   - IM00B5VQMV65
   metadata:
@@ -22187,7 +22257,8 @@ companies:
   wiki_name: SSE plc
   symbol: SSE
   country: United Kingdom
-  indices: []
+  indices:
+  - FTSE 100
   industries: []
   symbols:
   - yahoo: SSE.L
@@ -22675,8 +22746,7 @@ companies:
   wiki_name: Moody's Investors Service
   symbol: MCO
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries: []
   symbols: []
   isins: []
@@ -23192,7 +23262,19 @@ companies:
   - AEX
   - EURO STOXX 50
   industries: []
-  symbols: []
+  symbols:
+  - yahoo: PROSY
+    google: OTCMKTS:PROSY
+    currency: USD
+  - yahoo: 1YL.F
+    google: FRA:1YL
+    currency: EUR
+  - yahoo: PRX.AS
+    google: AMS:PRX
+    currency: EUR
+  - yahoo: 1TY.F
+    google: FRA:1TY
+    currency: EUR
   isins:
   - NL0013654783
   metadata:
@@ -24433,7 +24515,6 @@ companies:
   symbol: TELIA
   country: Sweden
   indices:
-  - OMX Helsinki 25
   - OMX Stockholm 30
   industries:
   - Telecommunication
@@ -24470,6 +24551,9 @@ companies:
   - yahoo: V4OC.F
     google: FRA:V4OC
     currency: EUR
+  - yahoo: KOJAF
+    google: OTCMKTS:KOJAF
+    currency: USD
   isins: []
   metadata:
     founded: 0
@@ -24486,6 +24570,9 @@ companies:
   - yahoo: 52R.F
     google: FRA:52R
     currency: EUR
+  - yahoo: MXTOF
+    google: OTCMKTS:MXTOF
+    currency: USD
   isins:
   - FI4000440664
   metadata:
@@ -24777,6 +24864,9 @@ companies:
     currency: EUR
   - yahoo: ABGOF
     google: OTCMKTS:ABGOF
+    currency: USD
+  - yahoo: ABGOY
+    google: OTCMKTS:ABGOY
     currency: USD
   isins:
   - ES0105200416
@@ -25374,6 +25464,7 @@ companies:
   country: United States
   indices:
   - NASDAQ 100
+  - S&P 500
   industries:
   - Biotechnology
   symbols:
@@ -25383,7 +25474,8 @@ companies:
   - yahoo: 0QF.F
     google: FRA:0QF
     currency: EUR
-  isins: []
+  isins:
+  - US60770K1079
   metadata:
     founded: 2010
     employees: 1500
@@ -25811,8 +25903,7 @@ companies:
   wiki_name: ASR Nederland N.V.
   symbol: ASRNL
   country: Netherlands
-  indices:
-  - AEX
+  indices: []
   industries: []
   symbols: []
   isins:
@@ -25856,7 +25947,16 @@ companies:
   - FTSE 100
   industries:
   - Engineering
-  symbols: []
+  symbols:
+  - yahoo: 42W.F
+    google: FRA:42W
+    currency: EUR
+  - yahoo: WEIR.L
+    google: LON:WEIR
+    currency: GBP
+  - yahoo: WEIGF
+    google: OTCMKTS:WEIGF
+    currency: USD
   isins:
   - GB0009465807
   metadata:
@@ -25990,8 +26090,7 @@ companies:
   wiki_name: Metso Outotec Oyj
   symbol: MOCORP
   country: Finland
-  indices:
-  - OMX Helsinki 25
+  indices: []
   industries:
   - Industrial machinery
   symbols: []
@@ -26105,6 +26204,9 @@ companies:
   - yahoo: VTAGY
     google: OTCMKTS:VTAGY
     currency: USD
+  - yahoo: VTWRF
+    google: OTCMKTS:VTWRF
+    currency: USD
   isins:
   - DE000A3H3LL2
   metadata:
@@ -26133,3 +26235,19 @@ companies:
   metadata:
     founded: ''
     employees: ''
+- name: Bath & Body Works, Inc.
+  wiki_name: Bath & Body Works, Inc.
+  symbol: BBWI
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Retailing
+  symbols:
+  - yahoo: BBWI
+    google: NYSE:BBWI
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1963
+    employees: 59950
