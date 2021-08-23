@@ -2842,6 +2842,9 @@ companies:
   - yahoo: JGHHY
     google: OTCMKTS:JGHHY
     currency: USD
+  - yahoo: JUNU.F
+    google: FRA:JUNU
+    currency: EUR
   metadata:
     founded: 1953
     employees: 18103
@@ -3379,6 +3382,9 @@ companies:
   - yahoo: TLLXY
     google: OTCMKTS:TLLXY
     currency: USD
+  - yahoo: TNXXF
+    google: OTCMKTS:TNXXF
+    currency: USD
   metadata:
     founded: 1996
     employees: 22537
@@ -3436,6 +3442,9 @@ companies:
   - yahoo: VOSSY
     google: OTCMKTS:VOSSY
     currency: USD
+  - yahoo: UWU0.F
+    google: FRA:UWU0
+    currency: EUR
   metadata:
     founded: 1888
     employees: 3786
@@ -3535,6 +3544,9 @@ companies:
   - yahoo: NWO.F
     google: FRA:NWO
     currency: EUR
+  - yahoo: XINXF
+    google: OTCMKTS:XINXF
+    currency: USD
   metadata:
     founded: 2003
     employees: 1567
@@ -3584,6 +3596,9 @@ companies:
   - yahoo: IGQ.F
     google: FRA:IGQ
     currency: EUR
+  - yahoo: TGOPF
+    google: OTCMKTS:TGOPF
+    currency: USD
   metadata:
     founded: 1945
     employees: 244
@@ -3921,6 +3936,9 @@ companies:
   - yahoo: BDEV.L
     google: LON:BDEV
     currency: GBP
+  - yahoo: 3BAA.F
+    google: FRA:3BAA
+    currency: EUR
   metadata:
     founded: 1958
     employees: 6655
@@ -10810,7 +10828,8 @@ companies:
   metadata:
     founded: 1971
     employees: 600000
-  isins: []
+  isins:
+  - US31428X1063
 - name: Ford Motor Company
   symbol: F
   country: United States
@@ -18674,7 +18693,6 @@ companies:
   country: Belgium
   indices:
   - BEL 20
-  - AEX
   industries:
   - Biotechnology & Medical Research
   - Pharmaceuticals & Medical Research
@@ -19738,7 +19756,8 @@ companies:
   metadata:
     founded: 1991
     employees: 17813
-  isins: []
+  isins:
+  - NL0011872643
 - name: Adyen N.V.
   symbol: ADYEN
   country: Netherlands
@@ -22026,6 +22045,9 @@ companies:
   - yahoo: GMVHY
     google: OTCMKTS:GMVHY
     currency: USD
+  - yahoo: 6GI0.F
+    google: FRA:6GI0
+    currency: EUR
   isins:
   - IM00B5VQMV65
   metadata:
@@ -24993,6 +25015,9 @@ companies:
   - yahoo: ILM1.F
     google: FRA:ILM1
     currency: EUR
+  - yahoo: 0QB4.L
+    google: LON:0QB4
+    currency: GBP
   isins:
   - DE000A1MMCC8
   metadata:
@@ -25383,7 +25408,8 @@ companies:
   - yahoo: 0QF.F
     google: FRA:0QF
     currency: EUR
-  isins: []
+  isins:
+  - US60770K1079
   metadata:
     founded: 2010
     employees: 1500
@@ -26087,6 +26113,9 @@ companies:
   - yahoo: NA9.F
     google: FRA:NA9
     currency: EUR
+  - yahoo: NGRRF
+    google: OTCMKTS:NGRRF
+    currency: USD
   isins: []
   metadata:
     founded: 0
@@ -26104,6 +26133,9 @@ companies:
     currency: EUR
   - yahoo: VTAGY
     google: OTCMKTS:VTAGY
+    currency: USD
+  - yahoo: VTWRF
+    google: OTCMKTS:VTWRF
     currency: USD
   isins:
   - DE000A3H3LL2
@@ -26133,3 +26165,30 @@ companies:
   metadata:
     founded: ''
     employees: ''
+- name: BE Semiconductor Industries N.V.
+  wiki_name: BE Semiconductor Industries N.V.
+  symbol: BESI
+  country: Netherlands
+  indices:
+  - AEX
+  industries: []
+  symbols: []
+  isins:
+  - NL0012866412
+  metadata:
+    founded: 1995
+    employees: 2040
+- name: Signify N.V.
+  wiki_name: Signify N.V.
+  symbol: LIGHT
+  country: Netherlands
+  indices:
+  - AEX
+  industries:
+  - Lighting
+  symbols: []
+  isins:
+  - NL0011821392
+  metadata:
+    founded: 2016
+    employees: 32005
