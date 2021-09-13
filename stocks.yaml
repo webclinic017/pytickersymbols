@@ -1921,6 +1921,9 @@ companies:
   - yahoo: SSLLF
     google: OTCMKTS:SSLLF
     currency: USD
+  - yahoo: WAF1.F
+    google: FRA:WAF1
+    currency: EUR
   metadata:
     founded: 1968
     employees: 3669
@@ -3568,6 +3571,9 @@ companies:
   - yahoo: ZLPSF
     google: OTCMKTS:ZLPSF
     currency: USD
+  - yahoo: ZOPLY
+    google: OTCMKTS:ZOPLY
+    currency: USD
   metadata:
     founded: 1999
     employees: 768
@@ -3622,6 +3628,9 @@ companies:
     currency: GBP
   - yahoo: AMIGY
     google: OTCMKTS:AMIGY
+    currency: USD
+  - yahoo: AMIGF
+    google: OTCMKTS:AMIGF
     currency: USD
   metadata:
     founded: 1991
@@ -3817,6 +3826,9 @@ companies:
   - yahoo: 2UA0.F
     google: FRA:2UA0
     currency: EUR
+  - yahoo: ATDRF
+    google: OTCMKTS:ATDRF
+    currency: USD
   metadata:
     founded: 1975
     employees: ''
@@ -3939,6 +3951,9 @@ companies:
   - yahoo: 3BAA.F
     google: FRA:3BAA
     currency: EUR
+  - yahoo: BTDPF
+    google: OTCMKTS:BTDPF
+    currency: USD
   metadata:
     founded: 1958
     employees: 6655
@@ -3972,6 +3987,9 @@ companies:
   - yahoo: BKGFY
     google: OTCMKTS:BKGFY
     currency: USD
+  - yahoo: 42BB.F
+    google: FRA:42BB
+    currency: EUR
   metadata:
     founded: 1976
     employees: 2709
@@ -4154,6 +4172,9 @@ companies:
   - yahoo: BRBY.L
     google: LON:BRBY
     currency: GBP
+  - yahoo: BB2A.F
+    google: FRA:BB2A
+    currency: EUR
   metadata:
     founded: 1856
     employees: 9892
@@ -4980,6 +5001,9 @@ companies:
   - yahoo: LGEN.L
     google: LON:LGEN
     currency: GBP
+  - yahoo: LGGNF
+    google: OTCMKTS:LGGNF
+    currency: USD
   metadata:
     founded: 1836
     employees: 10046
@@ -7529,7 +7553,8 @@ companies:
   metadata:
     founded: 1958
     employees: 37000
-  isins: []
+  isins:
+  - GB00BDSFG982
 - name: TOTAL SA
   symbol: FP
   country: France
@@ -20238,6 +20263,7 @@ companies:
     employees: 4881
   isins:
   - SE0012455673
+  - SE0015811559
 - name: AB Electrolux (publ)
   symbol: ELUXB
   country: Sweden
@@ -22096,6 +22122,9 @@ companies:
     currency: EUR
   - yahoo: JDSPY
     google: OTCMKTS:JDSPY
+    currency: USD
+  - yahoo: JDDSF
+    google: OTCMKTS:JDDSF
     currency: USD
   isins: []
   metadata:
@@ -24834,6 +24863,9 @@ companies:
   - yahoo: MTTRY
     google: OTCMKTS:MTTRY
     currency: USD
+  - yahoo: MTAGF
+    google: OTCMKTS:MTAGF
+    currency: USD
   isins:
   - DE0007257503
   - DE0007257537
@@ -26143,6 +26175,9 @@ companies:
   - yahoo: VTWRF
     google: OTCMKTS:VTWRF
     currency: USD
+  - yahoo: 0A9Y.L
+    google: LON:0A9Y
+    currency: GBP
   isins:
   - DE000A3H3LL2
   metadata:
