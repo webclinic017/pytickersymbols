@@ -2281,6 +2281,9 @@ companies:
   - yahoo: BORUF
     google: OTCMKTS:BORUF
     currency: USD
+  - yahoo: BVBA.F
+    google: FRA:BVBA
+    currency: EUR
   metadata:
     founded: 1909
     employees: ''
@@ -3154,6 +3157,9 @@ companies:
   - yahoo: SFQ
     google: OTCMKTS:SFQ
     currency: USD
+  - yahoo: SFHLF
+    google: OTCMKTS:SFHLF
+    currency: USD
   metadata:
     founded: 2005
     employees: 4218
@@ -3623,6 +3629,9 @@ companies:
   - yahoo: AMIGY
     google: OTCMKTS:AMIGY
     currency: USD
+  - yahoo: AMIGF
+    google: OTCMKTS:AMIGF
+    currency: USD
   metadata:
     founded: 1991
     employees: 3000
@@ -3939,6 +3948,9 @@ companies:
   - yahoo: 3BAA.F
     google: FRA:3BAA
     currency: EUR
+  - yahoo: BTDPF
+    google: OTCMKTS:BTDPF
+    currency: USD
   metadata:
     founded: 1958
     employees: 6655
@@ -3972,6 +3984,9 @@ companies:
   - yahoo: BKGFY
     google: OTCMKTS:BKGFY
     currency: USD
+  - yahoo: 42BB.F
+    google: FRA:42BB
+    currency: EUR
   metadata:
     founded: 1976
     employees: 2709
@@ -4980,6 +4995,9 @@ companies:
   - yahoo: LGEN.L
     google: LON:LGEN
     currency: GBP
+  - yahoo: LGGNF
+    google: OTCMKTS:LGGNF
+    currency: USD
   metadata:
     founded: 1836
     employees: 10046
@@ -5090,6 +5108,9 @@ companies:
     currency: GBP
   - yahoo: 27M.F
     google: FRA:27M
+    currency: EUR
+  - yahoo: 27MB.F
+    google: FRA:27MB
     currency: EUR
   metadata:
     founded: 2003
@@ -5881,6 +5902,9 @@ companies:
   - yahoo: SPX.L
     google: LON:SPX
     currency: GBP
+  - yahoo: SPXSY
+    google: OTCMKTS:SPXSY
+    currency: USD
   metadata:
     founded: 1888
     employees: ''
@@ -7529,7 +7553,8 @@ companies:
   metadata:
     founded: 1958
     employees: 37000
-  isins: []
+  isins:
+  - GB00BDSFG982
 - name: TOTAL SA
   symbol: FP
   country: France
@@ -10754,7 +10779,8 @@ companies:
   metadata:
     founded: 1876
     employees: 33625
-  isins: []
+  isins:
+  - US5324571083
 - name: Emerson Electric Co.
   symbol: EMR
   country: United States
@@ -12581,8 +12607,7 @@ companies:
 - name: Cabot Oil & Gas Corporation
   symbol: COG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -18635,8 +18660,7 @@ companies:
 - name: Barco N.V.
   symbol: BAR
   country: Belgium
-  indices:
-  - BEL 20
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -18737,7 +18761,6 @@ companies:
   country: Netherlands
   indices:
   - AEX
-  - BEL 20
   - EURO STOXX 50
   industries:
   - Banking & Investment Services
@@ -20238,6 +20261,7 @@ companies:
     employees: 4881
   isins:
   - SE0012455673
+  - SE0015811559
 - name: AB Electrolux (publ)
   symbol: ELUXB
   country: Sweden
@@ -24834,6 +24858,9 @@ companies:
   - yahoo: MTTRY
     google: OTCMKTS:MTTRY
     currency: USD
+  - yahoo: MTAGF
+    google: OTCMKTS:MTAGF
+    currency: USD
   isins:
   - DE0007257503
   - DE0007257537
@@ -24970,6 +24997,9 @@ companies:
   - yahoo: H24.F
     google: FRA:H24
     currency: EUR
+  - yahoo: HMAGF
+    google: OTCMKTS:HMAGF
+    currency: USD
   isins:
   - DE000A14KEB5
   metadata:
@@ -25903,7 +25933,8 @@ companies:
   industries:
   - Building material
   symbols: []
-  isins: []
+  isins:
+  - CH0012214059
   metadata:
     founded: 1912
     employees: 71000
@@ -26122,7 +26153,8 @@ companies:
   - yahoo: NGRRF
     google: OTCMKTS:NGRRF
     currency: USD
-  isins: []
+  isins:
+  - DE000A3H2200
   metadata:
     founded: 0
     employees: 0
@@ -26214,3 +26246,45 @@ companies:
   metadata:
     founded: 2016
     employees: 32005
+- name: Coterra Energy Inc.
+  wiki_name: Coterra Energy Inc.
+  symbol: CTRA
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Natural gas
+  symbols:
+  - yahoo: CTRA
+    google: NYSE:CTRA
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1989
+    employees: 503
+- name: Elia System Operator S.A.
+  wiki_name: Elia System Operator S.A.
+  symbol: XBRU
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0003822393
+  metadata:
+    founded: 2001
+    employees: 1229
+- name: Melexis
+  wiki_name: Melexis
+  symbol: null
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0165385973
+  metadata:
+    founded: 1988
+    employees: 1200
