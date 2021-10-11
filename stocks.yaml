@@ -1756,7 +1756,6 @@ companies:
   symbol: RRTL
   country: Luxembourg
   indices:
-  - CAC Mid 60
   - SDAX
   industries:
   - Media & Publishing
@@ -3154,6 +3153,9 @@ companies:
   - yahoo: SFQ
     google: OTCMKTS:SFQ
     currency: USD
+  - yahoo: SFHLF
+    google: OTCMKTS:SFHLF
+    currency: USD
   metadata:
     founded: 2005
     employees: 4218
@@ -3972,6 +3974,9 @@ companies:
   - yahoo: BKGFY
     google: OTCMKTS:BKGFY
     currency: USD
+  - yahoo: 42BB.F
+    google: FRA:42BB
+    currency: EUR
   metadata:
     founded: 1976
     employees: 2709
@@ -6558,6 +6563,9 @@ companies:
   - yahoo: CYJBY
     google: OTCMKTS:CYJBY
     currency: USD
+  - yahoo: CYJBF
+    google: OTCMKTS:CYJBF
+    currency: USD
   metadata:
     founded: 2005
     employees: 11552
@@ -7529,7 +7537,8 @@ companies:
   metadata:
     founded: 1958
     employees: 37000
-  isins: []
+  isins:
+  - GB00BDSFG982
 - name: TOTAL SA
   symbol: FP
   country: France
@@ -10754,7 +10763,8 @@ companies:
   metadata:
     founded: 1876
     employees: 33625
-  isins: []
+  isins:
+  - US5324571083
 - name: Emerson Electric Co.
   symbol: EMR
   country: United States
@@ -12581,8 +12591,7 @@ companies:
 - name: Cabot Oil & Gas Corporation
   symbol: COG
   country: United States
-  indices:
-  - S&P 500
+  indices: []
   industries:
   - Energy
   - Fossil Fuels
@@ -18635,8 +18644,7 @@ companies:
 - name: Barco N.V.
   symbol: BAR
   country: Belgium
-  indices:
-  - BEL 20
+  indices: []
   industries:
   - Technology
   - Technology Equipment
@@ -18737,7 +18745,6 @@ companies:
   country: Netherlands
   indices:
   - AEX
-  - BEL 20
   - EURO STOXX 50
   industries:
   - Banking & Investment Services
@@ -20238,6 +20245,7 @@ companies:
     employees: 4881
   isins:
   - SE0012455673
+  - SE0015811559
 - name: AB Electrolux (publ)
   symbol: ELUXB
   country: Sweden
@@ -24970,6 +24978,9 @@ companies:
   - yahoo: H24.F
     google: FRA:H24
     currency: EUR
+  - yahoo: HMAGF
+    google: OTCMKTS:HMAGF
+    currency: USD
   isins:
   - DE000A14KEB5
   metadata:
@@ -25903,7 +25914,8 @@ companies:
   industries:
   - Building material
   symbols: []
-  isins: []
+  isins:
+  - CH0012214059
   metadata:
     founded: 1912
     employees: 71000
@@ -26078,7 +26090,8 @@ companies:
   wiki_name: Metropole Télévision SA
   symbol: XPAR
   country: France
-  indices: []
+  indices:
+  - CAC Mid 60
   industries:
   - Media
   symbols:
@@ -26122,7 +26135,8 @@ companies:
   - yahoo: NGRRF
     google: OTCMKTS:NGRRF
     currency: USD
-  isins: []
+  isins:
+  - DE000A3H2200
   metadata:
     founded: 0
     employees: 0
@@ -26214,3 +26228,46 @@ companies:
   metadata:
     founded: 2016
     employees: 32005
+- name: Elia System Operator S.A.
+  wiki_name: Elia System Operator S.A.
+  symbol: XBRU
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0003822393
+  metadata:
+    founded: 2001
+    employees: 1229
+- name: Melexis
+  wiki_name: Melexis
+  symbol: null
+  country: Belgium
+  indices:
+  - BEL 20
+  industries: []
+  symbols: []
+  isins:
+  - BE0165385973
+  metadata:
+    founded: 1988
+    employees: 1200
+- name: Coterra Energy Inc.
+  wiki_name: Coterra Energy Inc.
+  symbol: CTRA
+  country: United States
+  indices:
+  - S&P 500
+  industries:
+  - Natural gas
+  - Oil
+  symbols:
+  - yahoo: CTRA
+    google: NYSE:CTRA
+    currency: USD
+  isins: []
+  metadata:
+    founded: 1989
+    employees: 503
